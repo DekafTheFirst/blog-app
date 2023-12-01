@@ -48,7 +48,6 @@ a {
     max-width: 1536px;
     margin-left: auto;
     margin-right: auto;
-    padding: 10px;
     padding-left: 80px;
     padding-right: 80px;
 
@@ -91,3 +90,12 @@ a {
     
     }
 }
+
+.ql-container {
+    font-size: 28px !important;
+}
+
+.quill > .ql-container > .ql-editor.ql-blank::before {
+    color: #b3b3b1;
+}
+
